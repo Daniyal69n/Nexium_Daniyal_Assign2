@@ -49,7 +49,7 @@ export default function Home() {
       <main>
         <div className="card">
           {/* Logo SVG */}
-          <div style={{ marginBottom: '1.5rem' }}>
+          <div className="logo-anim" style={{ marginBottom: '1.5rem' }}>
             <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
               <circle cx="24" cy="24" r="24" fill="url(#paint0_linear_1_2)"/>
               <path d="M16 32L32 16M16 16h16v16" stroke="#fff" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
